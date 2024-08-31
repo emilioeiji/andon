@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Operador</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .machine {
+            border: 1px solid #000;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .machine-list {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="machine">E01</div>
+                        <div class="machine">E02</div>
+                        <div class="machine">E03</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="machine">E04</div>
+                        <div class="machine">E05</div>
+                        <div class="machine">E06</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4>Lista de Máquinas</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Máquina</th>
+                            <th>Tempo Restante</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>E01</td>
+                            <td>10 min</td>
+                        </tr>
+                        <tr>
+                            <td>E02</td>
+                            <td>15 min</td>
+                        </tr>
+                        <tr>
+                            <td>E03</td>
+                            <td>20 min</td>
+                        </tr>
+                        <tr>
+                            <td>E04</td>
+                            <td>25 min</td>
+                        </tr>
+                        <tr>
+                            <td>E05</td>
+                            <td>30 min</td>
+                        </tr>
+                        <tr>
+                            <td>E06</td>
+                            <td>35 min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
